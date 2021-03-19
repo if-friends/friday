@@ -38,7 +38,7 @@ body{
     background-size: cover;    
 }
 .product{
-    padding: 100px;
+    padding: 100px 0;
     background: rgb(183, 201, 22);
     margin-top: 50px;
 }
