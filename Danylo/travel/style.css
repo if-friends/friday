@@ -1,0 +1,96 @@
+.head{
+    background: url('Porto-Seguro-dá-dicas-para-contratar-um-seguro-viagem.jpg') no-repeat;
+    height: 900px;
+    background-size:cover;
+    padding-top: 20px;
+}
+.titele-big{
+    color:#0019f7;
+    text-align: center;
+    font-size:40px;
+    margin-top: 50px;
+}
+.titel-small{
+    color:#ff0000;
+    text-align: center;
+    font-size:40px;
+}
+
+body{
+    margin: 0;
+}
+
+.card-img1{
+    background:url('unnamed.jpg');
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+}
+
+.card-img2{
+    background:url('unnamed (1).jpg');
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.card{
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.card-img1, .card-img2{
+    margin:0 auto ;
+}
+
+
+
+
+@media(max-width:800px){
+
+    .titele-big{
+        font-size: 30px;
+    }
+    .titel-small{
+        font-size: 20px;
+    }
+    .head{
+        height: 600px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+     
+
+}
+
+
+@media(max-width:500px){
+    
+    .titele-big{
+        font-size: 20px;
+    }
+    .titel-small{
+        font-size: 18px;
+    }
+    .head{
+        height: 400px;
+    }
+    .card-img1, .card-img2{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+
+
