@@ -1,0 +1,78 @@
+.header{
+    background: url('649-300.jpg') no-repeat;
+    height: 875px;
+    background-size: cover ;
+    padding-top:  20px;
+}
+.title-big{
+    font-size: 40px;
+    color: #ffffff; 
+    margin-top: 50px;
+    text-align: center;
+}
+.title-small{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 25px;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+.card-img1{
+    background: url('images.jpg');
+    width: 400px;
+    height:200px;
+    background-size: cover;
+}
+.card-img2{
+    background: url('149473-gornyjhrebet-massiv-nebo-sammit-nagore-550x310.jpg');
+    width: 400px;
+    height:200px;
+    background-size: cover;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  
+}
+.card{
+    max-width: 500px;
+    width: 100%;
+}
+.card-img1, .card-img2{
+    margin: 0 auto;
+}
+
+@media(max-width: 800px){
+    .title-big{
+        font-size: 30px;
+    }
+    .title-small{
+        font-size: 20px;
+    }
+    .header{
+        height: 600px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 500px){
+    .title-big{
+        font-size: 18px;
+    }
+    .title-small{
+        font-size: 20px;
+    }
+    .header{
+        height: 400px;
+    }
+    .card-img1, .card-img2{
+        height: 200px;
+        width: 200px;
+    }
+}
