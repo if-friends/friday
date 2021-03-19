@@ -1,0 +1,18 @@
+.img{
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(255, 0, 0);
+}
+
+@media(max-width:800px){
+    .img{
+        font-size: 60px;
+    }
+}
+@media(max-width:500px){
+    .img{
+        font-size: 40px;
+    }
+}
