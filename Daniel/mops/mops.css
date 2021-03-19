@@ -1,0 +1,50 @@
+.back{
+    text-decoration: none;
+    background: rgb(200, 255, 0);
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+    font-size: 24px;
+}
+.back:hover{
+    background: aqua;
+    border: 2px solid rgb(0, 255, 76);
+    transition: 1s;
+}
+.menu{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 ;
+}
+.img{
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+    background: url('Mops_59a412.jpg');
+    background-size: cover;
+}
+.text{
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+}
+.order{
+    padding: 15px 20px;
+    background: rgb(0, 255, 76);
+    color: seashell;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+@media(max-width:800px){
+    .info{
+        flex-direction: column;
+    }
+}
