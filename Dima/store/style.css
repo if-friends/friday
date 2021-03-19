@@ -84,11 +84,11 @@ body{
 }
 @media(max-width :450px){
     .img2,  .img3,  .img4{
-        height: 151px;
+        height: 108px;
        max-width: 131px ;
     }
    .img1{
-       max-width: 323px;
+       max-width: 233px;
        height: 222px;
    }
 
